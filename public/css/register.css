@@ -1,0 +1,182 @@
+
+/*HEADER*/
+
+* {
+    margin: 0 px ;
+    padding: 0 px ;
+    box-sizing: border-box ;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+    margin:0;
+}
+    
+ 
+header {background-color: #EAC926;
+}
+
+.primeraSeccionHeader{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 4%;
+    align-items: flex-start;
+}
+
+img.Logo-ml {
+    width: 35%;
+    align-self: center;
+}
+
+.barra-busqueda-icono{
+    display: flex;
+    align-self: center;
+    gap: 2%;
+ 
+}
+
+.barra-busqueda{
+    padding: 1px 1px;
+    height: 10%;
+    left:10%;
+    text-indent: -1px;
+    align-self: center;
+   
+}
+
+#icono-lupa{
+    padding: 2% 2%;
+    background-color: white;
+    color: black;
+    width: 26%;
+    height: 26%;
+    border: 1px solid #777777;
+    border-radius: 2px;
+    align-self: center;
+}
+
+.advertencia-compra-cuotas{
+    text-align: center;
+    align-self: center;
+}
+
+
+.burger-menu{
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+    }
+
+.burger-menu i{
+    background-color:#03264C;
+    color: #ebebeb;
+    padding: 3%;
+    margin:5%;
+    border-radius: 10px;
+    font-size: 200%;
+    
+}
+
+
+.navbar{
+    display: none;
+}
+
+
+/*MAIN*/
+
+main{
+    background-color: #ebebeb;
+}
+
+.label-titulo{
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.formulario-flex{
+    display: flex;
+    flex-direction: column;
+}
+
+.intereses-flex{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+p input{
+    width: 30%;
+
+}
+
+.formulario-comprador-vendedor{
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+                    
+
+
+/*FOOTER*/
+
+.pago-con-tarjeta{
+    text-align: center;
+}
+
+.pago-con-tarjeta i{
+    color: blue;
+}
+
+.pago-con-tarjeta h3{
+    margin: 1px 10px 12px;
+}
+
+.pago-con-tarjeta p{
+    margin: -15px 1px 1px;
+}
+
+.envio-gratis{
+    text-align: center;
+}
+
+.envio-gratis i{
+    color: blue;
+}
+
+.envio-gratis h3{
+    margin: 1px 10px 12px;
+}
+
+.envio-gratis p{
+    margin: -15px 1px 1px;
+}
+
+.seguridad-principio{
+    text-align: center;
+}
+
+.seguridad-principio i{
+    color: blue;
+}
+
+.seguridad-principio h3{
+    margin: 1px 10px 12px;
+}
+
+.seguridad-principio  p{
+    margin: -15px 1px 1px;
+}
+
+
+
+.navbar{
+    display: none;
+}
+
+.section-articulos article section h3{
+    display: none;
+}
